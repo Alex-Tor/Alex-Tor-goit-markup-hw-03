@@ -1,0 +1,228 @@
+:root {
+  --header-color: #ffffff;
+  --primery-text-color: #212121;
+  --accent-color: #2196f3;
+  --fhone-color: #2f303a;
+  --contact-color: rgba(255, 255, 255, 0.6);
+  --mail-tel-color: #757575;
+  --team-color: #f5f4fa;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.mail-tel {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--mail-tel-color);
+}
+.mail-tel:hover,
+.mail-tel:focus {
+  color: var(--accent-color);
+}
+.menu-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+  color: var(--primery-text-color);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+.studio-footer {
+  color: var(--header-color);
+}
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.contact-menu {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--contact-color);
+}
+.contact-menu-map {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
+}
+
+.contact-menu:hover,
+.contact-menu:focus {
+  color: var(--accent-color);
+}
+
+.hero-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--header-color);
+}
+.desc-menu {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.desc {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--mail-tel-color);
+}
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primery-text-color);
+}
+.people {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--primery-text-color);
+}
+.people-desc {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--mail-tel-color);
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.btn {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--primery-text-color);
+  background: var(--team-color);
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  border: inherit;
+  padding: inherit;
+}
+.btn:hover,
+.btn:focus {
+  color: var(--header-color);
+  background: var(--accent-color);
+}
+.btn-portfolio {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primery-text-color);
+  border: inherit;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.photo-portfolio {
+  width: 370px;
+  height: 294px;
+}
+.desc-photo {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primery-text-color);
+}
+.desc-desc {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--mail-tel-color);
+}
+.studio {
+  color: var(--primery-text-color);
+}
+.team {
+  background: var(--team-color);
+}
+.logo-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  color: var(--accent-color);
+}
+.hero-footer {
+  background-color: var(--fhone-color);
+}
+.logo-footer:hover,
+.logo-footer:focus {
+  color: var(--accent-color);
+}
+.current {
+  color: var(--accent-color);
+}
+.btn-order {
+  color: var(--header-color);
+  background: var(--accent-color);
+  border-radius: 4px;
+  border: 0;
+}
