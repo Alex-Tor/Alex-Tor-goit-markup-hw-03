@@ -7,6 +7,9 @@
   --mail-tel-color: #757575;
   --team-color: #f5f4fa;
 }
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -38,6 +41,9 @@ body {
 .studio-footer {
   color: var(--header-color);
 }
+.header-logo {
+  margin-right: 93px;
+}
 .logo {
   font-family: Raleway;
   font-style: normal;
@@ -48,6 +54,25 @@ body {
   color: var(--accent-color);
   text-decoration: none;
 }
+.li-header:not(:last-child) {
+  margin-right: 50px;
+}
+.tel {
+  margin-left: 50px;
+}
+.btn-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-li:not(:last-child) {
+  margin-right: 8px;
+}
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 .list {
   list-style: none;
 }
@@ -77,6 +102,10 @@ body {
 }
 
 .hero-title {
+  padding-top: 200px;
+  padding-bottom: 280px;
+  padding-left: 452px;
+  padding-right: 452px;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -162,6 +191,8 @@ body {
   background: var(--accent-color);
 }
 .btn-portfolio {
+  width: 128px;
+  height: 38px;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -211,6 +242,8 @@ body {
   color: var(--accent-color);
 }
 .hero-footer {
+  display: flex;
+  display: block;
   background-color: var(--fhone-color);
 }
 .logo-footer:hover,
@@ -221,8 +254,70 @@ body {
   color: var(--accent-color);
 }
 .btn-order {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 210px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
   color: var(--header-color);
   background: var(--accent-color);
   border-radius: 4px;
   border: 0;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.menu-list {
+  display: flex;
+}
+.header-connect {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+.container-header {
+  display: flex;
+}
+.tel {
+  display: flex;
+}
+.about {
+  padding-top: 56px;
+  padding-bottom: 94px;
+}
+.about-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.about-item:not(:last-child) {
+  margin-right: 30px;
+}
+.about-item: {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
 }
