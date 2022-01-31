@@ -102,10 +102,10 @@ body {
 }
 
 .hero-title {
+  display: block;
   padding-top: 200px;
   padding-bottom: 280px;
-  padding-left: 452px;
-  padding-right: 452px;
+
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -191,6 +191,7 @@ body {
   background: var(--accent-color);
 }
 .btn-portfolio {
+  text-align: center;
   width: 128px;
   height: 38px;
   font-style: normal;
@@ -242,9 +243,13 @@ body {
   color: var(--accent-color);
 }
 .hero-footer {
-  display: flex;
   display: block;
+  align-items: center;
   background-color: var(--fhone-color);
+  padding-left: 452px;
+  padding-right: 452px;
+  padding-top: 200px;
+  padding-bottom: 280px;
 }
 .logo-footer:hover,
 .logo-footer:focus {
@@ -254,10 +259,6 @@ body {
   color: var(--accent-color);
 }
 .btn-order {
-  display: flex;
-  margin: 0 auto;
-  margin-top: 40px;
-  margin-bottom: 210px;
   padding-left: 32px;
   padding-right: 32px;
   padding-top: 10px;
@@ -320,4 +321,7 @@ ul {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
+}
+.list-desc {
+  display: flex;
 }
