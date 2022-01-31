@@ -244,7 +244,7 @@ body {
 }
 .hero-footer {
   display: block;
-  align-items: center;
+  text-align: center;
   background-color: var(--fhone-color);
   padding-left: 452px;
   padding-right: 452px;
@@ -324,4 +324,11 @@ ul {
 }
 .list-desc {
   display: flex;
+}
+.list-item {
+  width: 270px;
+}
+.decs-section {
+  padding-top: 94px;
+  padding-bottom: 54px;
 }
