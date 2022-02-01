@@ -103,8 +103,7 @@ body {
 
 .hero-title {
   display: block;
-  padding-top: 200px;
-  padding-bottom: 280px;
+  margin-bottom: 50px;
 
   font-style: normal;
   font-weight: 900;
@@ -246,8 +245,6 @@ body {
   display: block;
   text-align: center;
   background-color: var(--fhone-color);
-  padding-left: 452px;
-  padding-right: 452px;
   padding-top: 200px;
   padding-bottom: 280px;
 }
@@ -324,11 +321,14 @@ ul {
 }
 .list-desc {
   display: flex;
+  
+  
 }
-.list-item {
-  width: 270px;
-}
-.decs-section {
+.list-item:not(:last-child) {
+  margin-right: 30px;
+
+.desc-section {
+
   padding-top: 94px;
-  padding-bottom: 54px;
+  padding-bottom: 94px;
 }
