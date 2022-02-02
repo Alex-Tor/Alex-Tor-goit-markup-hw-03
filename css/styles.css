@@ -237,20 +237,18 @@ body {
   cursor: pointer;
   color: var(--accent-color);
 }
-.hero-footer {
+.hero {
   display: block;
   text-align: center;
   background-color: var(--fhone-color);
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 210px;
 }
 .logo-footer:hover,
 .logo-footer:focus {
   color: var(--accent-color);
 }
-.current {
-  color: var(--accent-color);
-}
+
 .btn-order {
   padding-left: 32px;
   padding-right: 32px;
@@ -345,4 +343,13 @@ ul {
 }
 .foto-team:not(:last-child) {
   margin-right: 30px;
+}
+.hero-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--fhone-color);
+}
+.contact-adress {
+  margin-right: 0;
+  font-style: inherit;
 }
