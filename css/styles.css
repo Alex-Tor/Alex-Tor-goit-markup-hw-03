@@ -130,13 +130,9 @@ body {
   color: var(--mail-tel-color);
 }
 .title {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.16;
+  display: block;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--primery-text-color);
+  margin-bottom: 50px;
 }
 .people {
   font-style: normal;
@@ -321,15 +317,32 @@ ul {
 }
 .list-desc {
   display: flex;
-  
-  
 }
 .list-item:not(:last-child) {
   margin-right: 30px;
-  
+}
 
 .desc-section {
-
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.list-foto {
+  display: flex;
+}
+.foto-item:not(:last-child) {
+  margin-right: 30px;
+}
+.foto-occup {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.list-team {
+  display: flex;
+}
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.foto-team:not(:last-child) {
+  margin-right: 30px;
 }
